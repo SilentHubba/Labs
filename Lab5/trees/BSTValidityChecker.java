@@ -16,13 +16,13 @@ public class BSTValidityChecker {
 		}
 		
 		// Check to see if the left child node violates the rules of a BST
-		if(root.left != null && (root.left.val > root.val || root.left.val < lower))
+		if(root.left != null && (root.left.val > root.val || root.left.val < lower || root.left.val > upper))
 		{
 			return false;
 		}
 		
 		// Check to see if the right child node violates the rules of a BST
-		if(root.right != null && (root.right.val < root.val || root.right.val > upper))
+		if(root.right != null && (root.right.val < root.val || root.right.val < lower || root.right.val > upper))
 		{
 			return false;
 		}
