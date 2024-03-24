@@ -1,0 +1,1 @@
+For this lab, the code swaps its children (the left child becomes the right child and the right child becomes the left child). Then, recursively call the method on its children, causing the child’s children to swap. Do this until reaching a base case of having a null parent. Then, when the method returns, the trees and subtrees are swapped. 
