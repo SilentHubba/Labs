@@ -1,0 +1,1 @@
+We start by making a graph of all the nodes and their edges. Then, we traverse the directed graph with BFS. If we find a node we have already visited, then we return false because there is a cycle. Otherwise, if we traverse the entire graph and never repeat a node, return true.
