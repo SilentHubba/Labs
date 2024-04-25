@@ -1,0 +1,1 @@
+The program loops through the numbers for the first index and does binary search for the second index. This will add indices together until it finds the pair that matches the target and returns that. It runs in O(nlogn) time.
