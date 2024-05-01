@@ -1,0 +1,1 @@
+The method sorts the two strings as an array of characters. Then, it compares the contents of the string, returning true if the strings are the same and returning false if they aren't. It takes O(nlogn) time for quick sort and the java version takes O(n) auxiliary space where n is the number of characters, since it creates a new array of characters.
